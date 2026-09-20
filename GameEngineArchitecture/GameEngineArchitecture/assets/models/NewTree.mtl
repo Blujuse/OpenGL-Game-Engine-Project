@@ -1,0 +1,12 @@
+# Blender 4.1.0 MTL File: 'Tree.blend'
+# www.blender.org
+
+newmtl tree
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.040000 0.040000 0.040000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd E:/University Work/Year 2/CMP5363 Game Engine Architecture A S2/design-and-implement-3d-game-level-scene-using-opengl-api-Blujuse/GameEngineArchitecture/GameEngineArchitecture/assets/images/NewTreeUV.png

@@ -1,0 +1,22 @@
+# Blender 4.1.0 MTL File: 'ark.blend'
+# www.blender.org
+
+newmtl Gold
+Ns 11.764711
+Ka 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 6
+map_Kd E:/University Work/Year 2/CMP5363 Game Engine Architecture A S2/the-ark-of-the-covenant/textures/1103-diffuse_2.png
+
+newmtl Red_Handle
+Ns 96.078415
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.068397 0.068397
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 9

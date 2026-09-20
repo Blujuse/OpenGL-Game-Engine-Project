@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GameEngineArchitecture" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug x64">
+				<Option output="../Debug/GameEngineArchitecture" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug/" />
+				<Option deps_output="../Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add directory="./externals/SDL2_image/include/" />
+					<Add directory="./externals/assimp/include/" />
+					<Add directory="./externals/glm/" />
+					<Add directory="./externals/SDL2/include/" />
+					<Add directory="./externals/glew/include./externals/SDL2/include/" />
+					<Add directory="./externals/glew/include/" />
+					<Add directory="$(VC_IncludePath)/" />
+					<Add directory="$(WindowsSDK_IncludePath)/" />
+					<Add directory="./externals/SDL2_ttf/include/" />
+				</Compiler>
+				<Linker>
+					<Add library="GL" />
+					<Add library="GLEW" />
+					<Add library="SDL2" />
+					<Add library="SDL2_image" />
+					<Add library="SDL2_ttf" />
+					<Add library="assimp" />
+					<Add directory="./externals/SDL2_image/lib/x64/" />
+					<Add directory="./externals/SDL2/lib/x64/" />
+					<Add directory="./externals/assimp/lib/x64/" />
+					<Add directory="./externals/glm/" />
+					<Add directory="./externals/glew/lib/Release/x64/" />
+					<Add directory="$(VC_LibraryPath_x64)/" />
+					<Add directory="$(WindowsSDK_LibraryPath_x64)/" />
+					<Add directory="./externals/SDL2_ttf/lib/x64/" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output="../Release/GameEngineArchitecture" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release/" />
+				<Option deps_output="../Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add directory="./externals/SDL2_image/include/" />
+					<Add directory="./externals/assimp/include/" />
+					<Add directory="./externals/glm/" />
+					<Add directory="./externals/SDL2/include/" />
+					<Add directory="./externals/glew/include./externals/SDL2/include/" />
+					<Add directory="./externals/glew/include/" />
+					<Add directory="$(VC_IncludePath)/" />
+					<Add directory="$(WindowsSDK_IncludePath)/" />
+					<Add directory="./externals/SDL2_ttf/include/" />
+				</Compiler>
+				<Linker>
+					<Add library="GL" />
+					<Add library="GLEW" />
+					<Add library="SDL2" />
+					<Add library="SDL2_image" />
+					<Add library="SDL2_ttf" />
+					<Add library="assimp" />
+					<Add directory="./externals/SDL2_image/lib/x64/" />
+					<Add directory="./externals/SDL2/lib/x64/" />
+					<Add directory="./externals/assimp/lib/x64/" />
+					<Add directory="./externals/glm/" />
+					<Add directory="./externals/glew/lib/Release/x64/" />
+					<Add directory="$(VC_LibraryPath_x64)/" />
+					<Add directory="$(WindowsSDK_LibraryPath_x64)/" />
+					<Add directory="./externals/SDL2_ttf/lib/x64/" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="source/BatchRenderer.cpp" />
+		<Unit filename="source/BatchRenderer.h" />
+		<Unit filename="source/Billboard.h" />
+		<Unit filename="source/BillboardRenderer.cpp" />
+		<Unit filename="source/BillboardRenderer.h" />
+		<Unit filename="source/Camera.h" />
+		<Unit filename="source/FPSCameraController.h" />
+		<Unit filename="source/FontRenderer.cpp" />
+		<Unit filename="source/FontRenderer.h" />
+		<Unit filename="source/FrameBuffer.cpp" />
+		<Unit filename="source/FrameBuffer.h" />
+		<Unit filename="source/GUIRenderer.cpp" />
+		<Unit filename="source/GUIRenderer.h" />
+		<Unit filename="source/GameEngine.cpp" />
+		<Unit filename="source/GameEngine.h" />
+		<Unit filename="source/InstancedRenderer.cpp" />
+		<Unit filename="source/InstancedRenderer.h" />
+		<Unit filename="source/Model.cpp" />
+		<Unit filename="source/Model.h" />
+		<Unit filename="source/ModelRenderer.cpp" />
+		<Unit filename="source/ModelRenderer.h" />
+		<Unit filename="source/PostProcessJungle.cpp" />
+		<Unit filename="source/PostProcessJungle.h" />
+		<Unit filename="source/ShaderUtils.cpp" />
+		<Unit filename="source/ShaderUtils.h" />
+		<Unit filename="source/SkyboxRenderer.cpp" />
+		<Unit filename="source/SkyboxRenderer.h" />
+		<Unit filename="source/Skydome.cpp" />
+		<Unit filename="source/Skydome.h" />
+		<Unit filename="source/Terrain.cpp" />
+		<Unit filename="source/Terrain.h" />
+		<Unit filename="source/Texture.cpp" />
+		<Unit filename="source/Texture.h" />
+		<Unit filename="source/Vertex.h" />
+		<Unit filename="source/main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
